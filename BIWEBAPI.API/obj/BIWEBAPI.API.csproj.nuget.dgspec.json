@@ -1,0 +1,270 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.API\\BIWEBAPI.API.csproj": {}
+  },
+  "projects": {
+    "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.API\\BIWEBAPI.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.API\\BIWEBAPI.API.csproj",
+        "projectName": "BIWEBAPI.API",
+        "projectPath": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.API\\BIWEBAPI.API.csproj",
+        "packagesPath": "C:\\Users\\JOBIN\\.nuget\\packages\\",
+        "outputPath": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JOBIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.Common\\BIWEBAPI.Common.csproj": {
+                "projectPath": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.Common\\BIWEBAPI.Common.csproj"
+              },
+              "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.DataContracts\\BIWEBAPI.DataContracts.csproj": {
+                "projectPath": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.DataContracts\\BIWEBAPI.DataContracts.csproj"
+              },
+              "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.Data\\BIWEBAPI.Data.csproj": {
+                "projectPath": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.Data\\BIWEBAPI.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.Common\\BIWEBAPI.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.Common\\BIWEBAPI.Common.csproj",
+        "projectName": "BIWEBAPI.Common",
+        "projectPath": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.Common\\BIWEBAPI.Common.csproj",
+        "packagesPath": "C:\\Users\\JOBIN\\.nuget\\packages\\",
+        "outputPath": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JOBIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.DataContracts\\BIWEBAPI.DataContracts.csproj": {
+                "projectPath": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.DataContracts\\BIWEBAPI.DataContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.DataContracts\\BIWEBAPI.DataContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.DataContracts\\BIWEBAPI.DataContracts.csproj",
+        "projectName": "BIWEBAPI.DataContracts",
+        "projectPath": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.DataContracts\\BIWEBAPI.DataContracts.csproj",
+        "packagesPath": "C:\\Users\\JOBIN\\.nuget\\packages\\",
+        "outputPath": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.DataContracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JOBIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.Data\\BIWEBAPI.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.Data\\BIWEBAPI.Data.csproj",
+        "projectName": "BIWEBAPI.Data",
+        "projectPath": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.Data\\BIWEBAPI.Data.csproj",
+        "packagesPath": "C:\\Users\\JOBIN\\.nuget\\packages\\",
+        "outputPath": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JOBIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.Common\\BIWEBAPI.Common.csproj": {
+                "projectPath": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.Common\\BIWEBAPI.Common.csproj"
+              },
+              "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.DataContracts\\BIWEBAPI.DataContracts.csproj": {
+                "projectPath": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.DataContracts\\BIWEBAPI.DataContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

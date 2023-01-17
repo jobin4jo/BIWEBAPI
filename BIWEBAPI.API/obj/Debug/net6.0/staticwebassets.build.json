@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dnJInnITgoYqLwERGsoCG14FO4vP5jlj9ja/pRZfl08=",
+  "Source": "BIWEBAPI.API",
+  "BasePath": "_content/BIWEBAPI.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

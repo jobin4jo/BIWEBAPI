@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIWEBAPI.API", "BIWEBAPI.API\BIWEBAPI.API.csproj", "{5EDE500E-11EB-4612-AF24-EF9D5DDD4D42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIWEBAPI.Common", "BIWEBAPI.Common\BIWEBAPI.Common.csproj", "{0A76B38D-8FF7-49E6-ABC7-6B1BB9197D27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIWEBAPI.Data", "BIWEBAPI.Data\BIWEBAPI.Data.csproj", "{768B50F9-515F-41F6-A5F0-455E1D8E9A83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIWEBAPI.DataContracts", "BIWEBAPI.DataContracts\BIWEBAPI.DataContracts.csproj", "{C628DB79-E7E6-43AB-959B-4C2E358CC4EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EDE500E-11EB-4612-AF24-EF9D5DDD4D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EDE500E-11EB-4612-AF24-EF9D5DDD4D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EDE500E-11EB-4612-AF24-EF9D5DDD4D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EDE500E-11EB-4612-AF24-EF9D5DDD4D42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A76B38D-8FF7-49E6-ABC7-6B1BB9197D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A76B38D-8FF7-49E6-ABC7-6B1BB9197D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A76B38D-8FF7-49E6-ABC7-6B1BB9197D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A76B38D-8FF7-49E6-ABC7-6B1BB9197D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{768B50F9-515F-41F6-A5F0-455E1D8E9A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768B50F9-515F-41F6-A5F0-455E1D8E9A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{768B50F9-515F-41F6-A5F0-455E1D8E9A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{768B50F9-515F-41F6-A5F0-455E1D8E9A83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C628DB79-E7E6-43AB-959B-4C2E358CC4EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C628DB79-E7E6-43AB-959B-4C2E358CC4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C628DB79-E7E6-43AB-959B-4C2E358CC4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C628DB79-E7E6-43AB-959B-4C2E358CC4EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AD88F1F-AAA0-4C13-B15B-52DFBF7DBB2F}
+	EndGlobalSection
+EndGlobal

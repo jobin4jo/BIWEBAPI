@@ -1,0 +1,17 @@
+E:\BIWEBAPI\BIWEBAPI.API\BIWEBAPI.Data\bin\Debug\net6.0\BIWEBAPI.Data.deps.json
+E:\BIWEBAPI\BIWEBAPI.API\BIWEBAPI.Data\bin\Debug\net6.0\BIWEBAPI.Data.dll
+E:\BIWEBAPI\BIWEBAPI.API\BIWEBAPI.Data\bin\Debug\net6.0\BIWEBAPI.Data.pdb
+E:\BIWEBAPI\BIWEBAPI.API\BIWEBAPI.Data\bin\Debug\net6.0\BIWEBAPI.Common.dll
+E:\BIWEBAPI\BIWEBAPI.API\BIWEBAPI.Data\bin\Debug\net6.0\BIWEBAPI.DataContracts.dll
+E:\BIWEBAPI\BIWEBAPI.API\BIWEBAPI.Data\bin\Debug\net6.0\BIWEBAPI.Common.pdb
+E:\BIWEBAPI\BIWEBAPI.API\BIWEBAPI.Data\bin\Debug\net6.0\BIWEBAPI.DataContracts.pdb
+E:\BIWEBAPI\BIWEBAPI.API\BIWEBAPI.Data\obj\Debug\net6.0\BIWEBAPI.Data.csproj.AssemblyReference.cache
+E:\BIWEBAPI\BIWEBAPI.API\BIWEBAPI.Data\obj\Debug\net6.0\BIWEBAPI.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\BIWEBAPI\BIWEBAPI.API\BIWEBAPI.Data\obj\Debug\net6.0\BIWEBAPI.Data.AssemblyInfoInputs.cache
+E:\BIWEBAPI\BIWEBAPI.API\BIWEBAPI.Data\obj\Debug\net6.0\BIWEBAPI.Data.AssemblyInfo.cs
+E:\BIWEBAPI\BIWEBAPI.API\BIWEBAPI.Data\obj\Debug\net6.0\BIWEBAPI.Data.csproj.CoreCompileInputs.cache
+E:\BIWEBAPI\BIWEBAPI.API\BIWEBAPI.Data\obj\Debug\net6.0\BIWEBAPI.Data.csproj.CopyComplete
+E:\BIWEBAPI\BIWEBAPI.API\BIWEBAPI.Data\obj\Debug\net6.0\BIWEBAPI.Data.dll
+E:\BIWEBAPI\BIWEBAPI.API\BIWEBAPI.Data\obj\Debug\net6.0\refint\BIWEBAPI.Data.dll
+E:\BIWEBAPI\BIWEBAPI.API\BIWEBAPI.Data\obj\Debug\net6.0\BIWEBAPI.Data.pdb
+E:\BIWEBAPI\BIWEBAPI.API\BIWEBAPI.Data\obj\Debug\net6.0\ref\BIWEBAPI.Data.dll

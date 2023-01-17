@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FK3ADVwwMVuXTS5QOb+J6byXlB0TPadl6B2WGqs5IgkWH/7PTkT1ak1Li6EOZt6CBQY772wOJKkBNRQ5pG5FPA==",
+  "success": true,
+  "projectFilePath": "E:\\BIWEBAPI\\BIWEBAPI.API\\BIWEBAPI.Common\\BIWEBAPI.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JOBIN\\.nuget\\packages\\mongodb.bson\\2.18.0\\mongodb.bson.2.18.0.nupkg.sha512",
+    "C:\\Users\\JOBIN\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
