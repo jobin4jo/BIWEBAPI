@@ -33,8 +33,40 @@ namespace BIWEBAPI.API.Controllers
         [HttpPost("AddSkipon")]
         public async Task<ActionResult> InsertSkiponDetails( SkipOn skipOn) 
         {
+
            await this._iskipRepository.AddNewCollectionData(skipOn);
             return Ok(new { ID = skipOn._id });
+        }
+
+        [HttpGet("GetDetails/ById")]
+        public async Task<ActionResult>GetDetailsById(string id)
+        {
+           var response =await _iskipRepository.GetDetailById(id);
+            return Ok(new { Data = response });
+        }
+        [HttpPut("EditSkipOn")]
+        public async Task<ActionResult>UpdateSkipOn(string Id,SkipOn skipOn)
+        {
+            var SkiponRes=await _iskipRepository.GetDetailById(Id);
+            if (SkiponRes != null)
+            {
+                skipOn._id = SkiponRes._id;
+               await _iskipRepository.UpDateSkipOn(Id, skipOn);
+            }
+            return Ok(new { Data = "Update SucccessFully "+Id });
+                
+        }
+        [HttpDelete("SkipOn/{Id}")]
+        public async Task<ActionResult>DeleteSkiponById(string Id)
+        {
+            bool response;
+             var SkiponRes=await _iskipRepository.GetDetailById(Id);
+            if (SkiponRes != null)
+            {
+                response = await _iskipRepository.DeleteSkipOnById(Id);
+                return Ok(new { Data = response });
+            }
+            return null;
         }
     }
 }
