@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json.Schema": {
+              "target": "Package",
+              "version": "[3.0.14, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -101,6 +107,10 @@
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[2.18.0, )"
+            },
+            "Newtonsoft.Json.Schema": {
+              "target": "Package",
+              "version": "[3.0.14, )"
             }
           },
           "imports": [

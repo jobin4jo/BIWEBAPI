@@ -14,6 +14,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.Configure<MongoDBSettings>(builder.Configuration.GetSection("MongoDB"));
 builder.Services.AddSingleton<ISkipRepository ,SkipRepository>();
 
+
+///deseralization
+//builder.Services.AddMvc()
+//                       .AddJsonOptions(o => o.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.DefaultContractResolver());
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

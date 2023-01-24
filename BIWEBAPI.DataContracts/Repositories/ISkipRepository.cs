@@ -10,6 +10,10 @@ namespace BIWEBAPI.DataContracts.Repositories
     public  interface ISkipRepository
     {
         Task<List<SkipOn>> GetAlldetails();
+        Task<SkipOn>GetDetailById(string id);   
         Task AddNewCollectionData(SkipOn skipOn);
+        Task UpDateSkipOn(string id,SkipOn skipOn);
+        Task<bool> DeleteSkipOnById(string id);   
+        
     }
 }

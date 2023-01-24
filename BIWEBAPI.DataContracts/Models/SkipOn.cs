@@ -19,14 +19,14 @@ namespace BIWEBAPI.DataContracts.Models
         public string Skipon { get; set; }
         [BsonElement("home")]
         public string home { get; set; }
-      
-     
-        [BsonElement("thrillers")]
-        [JsonPropertyName("thrillers")]
-        public List<string> thrillers { get; set; }
-        [BsonElement("quotes")]
-        [JsonPropertyName("quotes")]
-        public List<string> quotes { get; set; }
+
+
+        //[BsonElement("thrillers")]
+        //[JsonPropertyName("thrillers")]
+        //public List<string> thrillers { get; set; }
+        //[BsonElement("quotes")]
+        ////[JsonPropertyName("quotes")]
+        //public List<Quotes> quotes { get; set; }
         [BsonElement("signin")]
         public string signin { get; set; }
         [BsonElement("join")]

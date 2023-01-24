@@ -27,10 +27,31 @@ namespace BIWEBAPI.Data.Repositories
            await _SkipCollection.InsertOneAsync(skipOn);
         }
 
+       
+
+        public async  Task<bool> DeleteSkipOnById(string id)
+        {
+            var deleteResponse = await _SkipCollection.DeleteOneAsync(x => x._id == id);
+            return true;
+        }
+
         public async Task<List<SkipOn>> GetAlldetails()
         {
-            var data = await _SkipCollection.Find(s => true).ToListAsync();
+            var data = await _SkipCollection.Find( FilterDefinition<SkipOn>.Empty).ToListAsync();
             return data;
+        }
+
+        public async Task<SkipOn> GetDetailById(string id)
+        {
+            var data = await _SkipCollection.Find(x => x._id == id).FirstOrDefaultAsync();
+            return data;
+
+        }
+
+        public async Task UpDateSkipOn(string id, SkipOn skipOn)
+        {
+            var UpdateResponse = await _SkipCollection.ReplaceOneAsync(x => x._id == id, skipOn);
+            return;
         }
     }
 }
